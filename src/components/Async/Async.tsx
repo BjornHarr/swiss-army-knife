@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import {usePromise} from "../usePromise/usePromise.ts";
+import {usePromise} from "../../hooks/usePromise/usePromise.ts";
 
 type AsyncProps<T> = {
     provider: (...props: unknown[]) => Promise<T>,
